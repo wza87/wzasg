@@ -47,9 +47,6 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-	#back-to-top {
-		display: none !important;	
-	}
 	
 	#home-slider {
 		margin-left: -20px;
@@ -203,9 +200,33 @@
 }
 
 @media (max-width: 480px) {
-	#back-to-top {
-		display: none !important;	
+
+	.fancybox-close i {
+		left: 12px;
+		top: 10px;
 	}
+
+	.fancybox-close {
+		width: 25px;
+		height: 25px;
+	}
+
+	.fancybox-nav span {
+		width: 25px;
+		height: 25px;
+	}
+
+	.fancybox-nav span,
+	.fancybox-close{
+		background: #26292E;
+	}
+
+
+	.fancybox-nav:hover span,
+	.fancybox-close:hover {
+		background: #DE5E60;
+	}
+
 	
 	#home-slider {
 		margin-left: -20px;

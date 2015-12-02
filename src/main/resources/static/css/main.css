@@ -1686,3 +1686,9 @@ body {
 }
 #go-top a:hover { background-color: #DE5E60; }
 
+@media (max-width: 480px) {
+	.intro .intro-body .brand-heading {
+		font-size: 27px;
+	}
+}
+
