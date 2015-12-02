@@ -76,7 +76,7 @@ case "$1" in
     then
 		touch $SPRING_LOG
     fi
-    nohup java -jar $JARFile $SPRING_OPTS <$SPRING_LOG &>$SPRING_LOG &
+    nohup java -jar $JARFile $SPRING_OPTS > $SPRING_LOG &
     echo "Process started"
     ;;
   restart)
