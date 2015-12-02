@@ -1079,11 +1079,11 @@ nav#menu #menu-nav li a:hover {
 #social ul li a span {
 	display: inline-block;
 	margin: 0;
-	color: #55606a;
+	color: #fff;
 	font-size: 32px;
 	line-height: 70px;
 	
-	opacity: 0.3;
+	opacity: 0.7;
 	filter: alpha(opacity=30);
 	
 	-webkit-transition: all 400ms ease-out 0s;	
