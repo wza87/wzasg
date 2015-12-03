@@ -59,12 +59,7 @@
 	
 	header .sticky-nav,
 	#navigation-mobile,
-	.page,
-	.page-alternate,
-	#twitter-feed,
-	footer {
-		margin-left: -20px;
-		margin-right: -20px;
+	.page{
 		padding-left: 20px;
 		padding-right: 20px;	
 	}
@@ -244,11 +239,7 @@
 	header .sticky-nav,
 	#navigation-mobile,
 	.page,
-	.page-alternate,
-	#twitter-feed,
-	footer {
-		margin-left: -20px;
-		margin-right: -20px;
+	.page-alternate{
 		padding-left: 20px;
 		padding-right: 20px;	
 	}
