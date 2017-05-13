@@ -5,10 +5,11 @@
   <artifactId>wzasg</artifactId>
   <version>0.1.0</version>
   <name>wzasg Maven Webapp</name>
+  <packaging>war</packaging>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.1.9.RELEASE</version>
+    <version>1.4.2.RELEASE</version>
   </parent>
 
   <dependencies>
@@ -24,6 +25,11 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-tomcat</artifactId>
+      <!--<scope>provided</scope>-->
+    </dependency>
     <!--<dependency>-->
     <!--<groupId>org.apache.tomcat.embed</groupId>-->
     <!--<artifactId>tomcat-embed-jasper</artifactId>-->
@@ -34,11 +40,6 @@
     <!--<artifactId>jstl</artifactId>-->
     <!--</dependency>-->
   </dependencies>
-
-  <properties>
-    <start-class>com.wza.Application</start-class>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
 
   <build>
     <plugins>
